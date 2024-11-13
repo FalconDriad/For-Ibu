@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Birthday Surprise For Ibu</title>
+<style>
+body{
+  background-color:#F3E5AB;
+}
+p {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Brush Script MT', cursive;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
+
+</style>
+</head>
+<body>
+<p>Happy Birthday Ibu</p>
+<img src="https://i.pinimg.com/originals/da/63/f4/da63f48a4ad099950579cabcdbb0f272.gif">
+
+<center>
+<button id="botao1">CLICK HERE</button>
+</center>
+<script>
+
+document.getElementById('botao1').addEventListener('click', function() {
+  if (confirm('Ada surprise lagi ibu. Click ok nanti ibu')) {
+    window.location.href = 'mainpage.html'; // Replace with the URL you want to redirect to
+  }
+});
+</script>
+</body>
+</html>
